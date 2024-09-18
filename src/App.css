@@ -1,0 +1,87 @@
+*{
+  background: #5a5a5a;
+  color: aqua;
+}
+
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.board-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.square {
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #fff; /* Added default background */
+  transition: background-color 0.2s ease-in-out; /* Smooth color transition */
+}
+
+.square:hover {
+  background-color: #f0f0f0; /* Hover effect for better UX */
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reset-btn:hover {
+  background-color: #45a049;
+}
+
+.game-history {
+  margin-top: 20px;
+}
+
+.game-history button {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.game-history button:hover {
+  background-color: #007bb5;
+}
+
+.game-mode button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008cba;
+  color: white;
+  border: none;
+}
+
+.game-mode button:hover {
+  background-color: #007bb5;
+}
